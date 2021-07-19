@@ -1,0 +1,38 @@
+\documentclass[12 pt]{article}
+\hbadness=10
+\input{src/header.tex}
+
+%%% Title and Abstract
+\title{Cryptographic Secret Sharing}
+\author{Girls Talk Math}
+\date{}
+
+\begin{document}
+\maketitle
+\vskip 1in
+\input{src/abstract.tex}
+
+%%% Table of Contents
+\newpage
+\tableofcontents
+\vspace*{\fill}
+Optional sections are marked with an asterisk (*).
+
+%%% Contents
+\newpage
+\input{src/probability.tex}
+\newpage
+\input{src/secretsharing.tex}
+\newpage
+\input{src/shamir.tex}
+\newpage
+\input{src/conclusion.tex}
+
+%%% References
+\newpage
+{\small
+\bibliographystyle{unsrt}
+\bibliography{main}
+}
+
+\end{document}

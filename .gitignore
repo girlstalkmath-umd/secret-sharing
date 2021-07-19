@@ -1,0 +1,23 @@
+# TeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.auxlock
+*.bbl
+*.blg
+
+# Jupyter
+.ipynb_checkpoints
+
+# Python
+__pycache__
+
+# MacOS
+.DS_Store
+
+# Other
+images/
